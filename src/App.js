@@ -8,6 +8,8 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import Explore from "./components/Explore";
 import HeroSec from "./components/HeroSec";
+import WhyChooseUs from "./components/WhyChooseUs";
+import Pricing from "./components/Pricing";
 
 function App() {
   
@@ -18,6 +20,8 @@ function App() {
       <HeroSec />
       <MarqueeSection />
       <Services />
+      <WhyChooseUs />
+      <Pricing />
       <Explore />
       <AboutUs/>
       <CustomTech/> 

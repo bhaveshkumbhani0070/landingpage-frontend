@@ -53,7 +53,7 @@ const Services = () => {
     return (
         <div id='services' className='container mx-auto '>
             <div className='flex justify-center  items-center py-12 mt-16 flex-col text-white gap-y-4'>
-                <h1 className='text-3xl font-semibold text-center'>Our Most in Demand Servuce</h1>
+                <h1 className='text-3xl font-semibold text-center'>Our Most in Demand Service</h1>
                 <p className='mt-4 w-[50%] text-center'>
                     At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                     voluptatum deleniti atque corrupti quos dolores et quas molestias
@@ -61,7 +61,7 @@ const Services = () => {
             </div>
 
             <div className='relative lg:flex  lg:flex-wrap   lg:gap-8 lg:justify-center lg:px-8 2xl:px-20'>
-            <div class=" absolute  right-0  top-32 -z-10  bg-gradient-to-b w-80 rounded-full  blur-3xl  from-purple-600 opacity-30 via-purple-500 to-purple-400 "></div>
+            <div className='absolute right-0 top-32 -z-10 bg-gradient-to-b w-80 rounded-full blur-3xl from-purple-600 opacity-30 via-purple-500 to-purple-400'></div>
             {servicesData.map((service, index) => (
                   <ServiceCard 
                     key={index} 
